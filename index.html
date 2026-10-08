@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>葛嘉嘉 · 个人简历</title>
+<style>
+:root{--p:#d9688f;--pd:#c04a72;--a:#f0a8c0;--al:#f7c8d8;--bg:#fdf2f5;--card:#fff;--alt:#fce7ee;--tx:#3d2530;--tx2:#6b4a56;--mu:#a88a95;--bd:#f5d5e0;--sh:0 1px 3px rgba(217,104,143,.08);--shm:0 4px 14px rgba(217,104,143,.14);--shl:0 10px 30px rgba(217,104,143,.18);--r:14px;--t:200ms cubic-bezier(.4,0,.2,1)}
+[data-theme=dark]{--p:#e88aa8;--pd:#d9688f;--a:#f0a8c0;--al:#fce7ee;--bg:#1a1216;--card:#261a20;--alt:#2e1f26;--tx:#fce7ee;--tx2:#e8c8d4;--mu:#a88a95;--bd:#3d2a33;--sh:0 1px 3px rgba(0,0,0,.3);--shm:0 4px 12px rgba(0,0,0,.35);--shl:0 10px 30px rgba(0,0,0,.45)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:radial-gradient(ellipse 80% 50% at 15% 0%,rgba(240,168,192,.18),transparent),radial-gradient(ellipse 60% 40% at 85% 10%,rgba(247,200,216,.22),transparent),var(--bg);color:var(--tx);line-height:1.6;transition:background var(--t),color var(--t);min-height:100vh;-webkit-font-smoothing:antialiased}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:60px;background:rgba(253,242,245,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--bd);transition:background var(--t)}
+[data-theme=dark] .nav{background:rgba(26,18,22,.88)}
+.ni{max-width:1100px;margin:0 auto;padding:0 20px;height:100%;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.nb{font-weight:800;font-size:17px;display:flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--p),var(--a));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap}
+.nb img{width:26px;height:26px;border-radius:50%;object-fit:cover;border:2px solid var(--al);-webkit-text-fill-color:initial}
+.nl{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.nl::-webkit-scrollbar{display:none}
+.nl a{color:var(--tx2);text-decoration:none;font-size:13.5px;font-weight:500;padding:6px 12px;border-radius:20px;white-space:nowrap;transition:all var(--t)}
+.nl a:hover{color:var(--p);background:rgba(217,104,143,.1)}
+.na{display:flex;gap:8px;flex-shrink:0}
+.ib{width:36px;height:36px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--tx2);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all var(--t);font-size:16px}
+.ib:hover{color:var(--p);border-color:var(--p);transform:translateY(-1px);box-shadow:var(--shm)}
+.c{max-width:1100px;margin:0 auto;padding:0 20px}
+section{padding:56px 0}
+.st{font-size:22px;font-weight:800;margin-bottom:8px;display:flex;align-items:center;gap:10px}
+.st::before{content:'';width:4px;height:22px;border-radius:2px;background:linear-gradient(180deg,var(--p),var(--a))}
+.ss{color:var(--mu);font-size:14px;margin-bottom:28px}
+.hero{padding-top:116px;padding-bottom:48px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(240,168,192,.25),transparent 70%);pointer-events:none}
+.hg{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center;position:relative;z-index:1}
+.hn{font-size:clamp(32px,5vw,48px);font-weight:800;letter-spacing:-1px;line-height:1.15;margin-bottom:12px}
+.hn span{background:linear-gradient(135deg,var(--p),var(--a));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.ht{font-size:15.5px;color:var(--tx2);margin-bottom:20px;max-width:620px;line-height:1.75}
+.hb{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.bg{display:inline-flex;align-items:center;padding:5px 13px;border-radius:20px;font-size:12.5px;font-weight:600;background:rgba(217,104,143,.1);color:var(--pd);border:1px solid rgba(217,104,143,.22);transition:all var(--t)}
+.bg.a{background:rgba(240,168,192,.15);color:var(--p);border-color:rgba(240,168,192,.35)}
+.bg:hover{transform:translateY(-1px);box-shadow:var(--shm)}
+.ha{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:10px 20px;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none;border:1px solid transparent;transition:all var(--t);font-family:inherit}
+.bp{background:linear-gradient(135deg,var(--p),var(--pd));color:#fff;box-shadow:0 4px 14px rgba(217,104,143,.35)}
+.bp:hover{transform:translateY(-2px);box-shadow:0 6px 22px rgba(217,104,143,.45)}
+.bo{background:var(--card);color:var(--tx2);border-color:var(--bd)}
+.bo:hover{color:var(--p);border-color:var(--p);transform:translateY(-2px);box-shadow:var(--shm)}
+.aw{position:relative;flex-shrink:0}
+.av{width:140px;height:140px;border-radius:32px;background:linear-gradient(135deg,var(--p),var(--a));display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:800;color:#fff;box-shadow:0 14px 36px rgba(217,104,143,.35);overflow:hidden}
+.av img{width:100%;height:100%;object-fit:cover;display:block}
+.ar{position:absolute;inset:-8px;border-radius:38px;border:2px dashed rgba(217,104,143,.35);animation:spin 20s linear infinite;pointer-events:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.hc{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:22px;position:relative;overflow:hidden;transition:all var(--t);box-shadow:var(--sh)}
+.hc::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--p),var(--a));transform:scaleX(0);transform-origin:left;transition:transform var(--t)}
+.hc:hover{transform:translateY(-4px);box-shadow:var(--shl);border-color:rgba(217,104,143,.3)}
+.hc:hover::before{transform:scaleX(1)}
+.hnum{font-size:32px;font-weight:800;line-height:1;background:linear-gradient(135deg,var(--p),var(--a));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px}
+.hnum span{font-size:16px}
+.hlab{font-size:14px;color:var(--tx2);font-weight:600}
+.hdesc{font-size:12.5px;color:var(--mu);margin-top:6px}
+.tabs{display:flex;gap:6px;margin-bottom:24px;flex-wrap:wrap;border-bottom:1px solid var(--bd)}
+.tb{padding:10px 18px;border:none;background:transparent;color:var(--mu);font-size:14px;font-weight:600;cursor:pointer;border-radius:10px 10px 0 0;position:relative;transition:all var(--t);font-family:inherit}
+.tb::after{content:'';position:absolute;bottom:-1px;left:12px;right:12px;height:2px;background:linear-gradient(90deg,var(--p),var(--a));transform:scaleX(0);transition:transform var(--t)}
+.tb:hover{color:var(--tx2)}
+.tb[aria-selected=true]{color:var(--p)}
+.tb[aria-selected=true]::after{transform:scaleX(1)}
+.tp{display:none;animation:fi 300ms ease}
+.tp.active{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.ec{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:24px;margin-bottom:16px;transition:all var(--t);box-shadow:var(--sh)}
+.ec:hover{transform:translateY(-2px);box-shadow:var(--shm);border-color:rgba(217,104,143,.25)}
+.eh{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.et{font-size:16px;font-weight:700}
+.eco{font-size:14px;color:var(--p);font-weight:600;margin-top:2px}
+.ed{font-size:12.5px;color:var(--mu);font-weight:600;background:var(--alt);padding:4px 12px;border-radius:20px;white-space:nowrap}
+.el{list-style:none;display:flex;flex-direction:column;gap:8px}
+.el li{font-size:13.5px;color:var(--tx2);padding-left:20px;position:relative;line-height:1.7}
+.el li::before{content:'';position:absolute;left:4px;top:9px;width:6px;height:6px;border-radius:50%;background:linear-gradient(135deg,var(--p),var(--a))}
+.pg{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+.pc{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:22px;transition:all var(--t);display:flex;flex-direction:column;gap:12px;box-shadow:var(--sh)}
+.pc:hover{transform:translateY(-4px);box-shadow:var(--shl);border-color:rgba(217,104,143,.3)}
+.pn{font-size:15.5px;font-weight:700}
+.ps{display:flex;flex-wrap:wrap;gap:6px}
+.stg{font-size:11.5px;font-weight:600;padding:3px 10px;border-radius:6px;background:rgba(240,168,192,.18);color:var(--pd)}
+.pr{font-size:13px;color:var(--tx2);line-height:1.7}
+.pr strong{color:var(--p)}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.gi{border-radius:var(--r);overflow:hidden;border:1px solid var(--bd);background:var(--card);box-shadow:var(--sh);transition:all var(--t)}
+.gi:hover{transform:translateY(-4px);box-shadow:var(--shl)}
+.gi img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover}
+.gcap{padding:12px 16px;font-size:13px;color:var(--tx2);font-weight:600;display:flex;justify-content:space-between;align-items:center}
+.gcap span{color:var(--mu);font-size:12px;font-weight:500}
+.gph{width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--alt),rgba(240,168,192,.2));color:var(--mu);font-size:13px;font-weight:600}
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.skg{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:22px;transition:all var(--t);box-shadow:var(--sh)}
+.skg:hover{box-shadow:var(--shm);transform:translateY(-2px)}
+.skt{font-size:14px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.ski{margin-bottom:14px}
+.ski:last-child{margin-bottom:0}
+.skh{display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px}
+.skn{color:var(--tx2);font-weight:500}
+.skp{color:var(--mu);font-size:12px;font-weight:600}
+.skb{height:6px;background:var(--alt);border-radius:3px;overflow:hidden}
+.skf{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--p),var(--a));width:0;transition:width 900ms cubic-bezier(.4,0,.2,1)}
+.tl{position:relative;padding-left:28px}
+.tl::before{content:'';position:absolute;left:8px;top:4px;bottom:4px;width:2px;background:linear-gradient(180deg,var(--p),var(--a),transparent)}
+.tli{position:relative;margin-bottom:24px}
+.tli:last-child{margin-bottom:0}
+.tli::before{content:'';position:absolute;left:-24px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--card);border:2px solid var(--p);box-shadow:0 0 0 3px rgba(217,104,143,.15)}
+.tlt{font-size:15px;font-weight:700}
+.tls{font-size:13px;color:var(--tx2);margin-top:2px}
+.tld{font-size:12.5px;color:var(--mu);margin-top:4px}
+.ft{text-align:center;padding:36px 20px;border-top:1px solid var(--bd);color:var(--mu);font-size:13px;background:rgba(252,231,238,.4)}
+[data-theme=dark] .ft{background:rgba(46,31,38,.4)}
+.ft a{color:var(--p);text-decoration:none;font-weight:600}
+.ft a:hover{text-decoration:underline}
+.bt{position:fixed;bottom:28px;right:28px;z-index:99;width:44px;height:44px;border-radius:14px;border:none;background:linear-gradient(135deg,var(--p),var(--pd));color:#fff;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(217,104,143,.4);opacity:0;visibility:hidden;transform:translateY(12px);transition:all var(--t)}
+.bt.show{opacity:1;visibility:visible;transform:translateY(0)}
+.bt:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(217,104,143,.5)}
+.ts{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--tx);color:var(--bg);padding:10px 22px;border-radius:24px;font-size:13.5px;font-weight:500;z-index:200;opacity:0;visibility:hidden;transition:all var(--t);box-shadow:var(--shl)}
+.ts.show{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
+@media(max-width:768px){
+.hg{grid-template-columns:1fr;text-align:center}
+.ht{margin-left:auto;margin-right:auto}
+.hb,.ha{justify-content:center}
+.aw{margin:0 auto}
+.av{width:110px;height:110px;font-size:42px;border-radius:26px}
+.nl{display:none}
+.pg{grid-template-columns:1fr}
+section{padding:40px 0}
+}
+@media(max-width:480px){
+.c{padding:0 16px}
+.eh{flex-direction:column}
+.hnum{font-size:26px}
+.gal{grid-template-columns:1fr}
+}
+@media print{
+:root{--bg:#fff;--card:#fff;--alt:#fdf2f5;--tx:#000;--tx2:#333;--mu:#666;--bd:#f0c8d8;--sh:none;--shm:none;--shl:none}
+.nav,.bt,.ts,.ha,.ib,.tb::after,.ar{display:none!important}
+body{background:#fff!important;color:#000;font-size:12px}
+.hero{padding-top:20px}
+.hero::before{display:none}
+section{padding:16px 0;page-break-inside:avoid}
+.tp{display:block!important;animation:none}
+.tb{display:none}
+.ec,.pc,.skg,.hc,.gi{border:1px solid #eee;box-shadow:none;break-inside:avoid}
+.ec:hover,.pc:hover,.skg:hover,.hc:hover,.gi:hover{transform:none;box-shadow:none}
+.skf{background:#d9688f!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.bg,.stg{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+a{text-decoration:none;color:#000}
+.st::before{background:#d9688f!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+@media(prefers-reduced-motion:reduce){
+*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="ni">
+    <div class="nb">
+      <img src="logo.jpg" alt="头像" onerror="this.style.display='none'">
+      葛嘉嘉
+    </div>
+    <div class="nl" id="nl"></div>
+    <div class="na">
+      <button class="ib" id="tt" aria-label="切换深浅色" title="切换深浅色">🌙</button>
+      <button class="ib" id="pb" aria-label="打印简历" title="打印/导出PDF">🖨</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+<section class="hero" id="top">
+  <div class="c">
+    <div class="hg">
+      <div>
+        <h1 class="hn"><span>葛嘉嘉</span></h1>
+        <p class="ht">
+          AI训练师（初级/高级认证）· 给排水科学与工程 · 盐城工学院 2026级<br>
+          环境工程背景与AI训练师认证双轮驱动，善于将AI技术应用于给排水场景，推动传统行业智能化升级。
+        </p>
+        <div class="hb" id="hb"></div>
+        <div class="ha">
+          <button class="btn bp" id="ce">📧 复制邮箱</button>
+          <a class="btn bo" href="#experience">💼 查看经历</a>
+          <a class="btn bo" href="#skills">⚡ 技能矩阵</a>
+        </div>
+      </div>
+      <div class="aw">
+        <div class="av"><img src="logo.jpg" alt="葛嘉嘉头像" onerror="this.outerHTML='葛'"></div>
+        <div class="ar"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="highlights">
+  <div class="c">
+    <h2 class="st">亮点成果</h2>
+    <p class="ss">关键量化成绩，快速了解核心价值</p>
+    <div class="hl" id="hl"></div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="c">
+    <h2 class="st">经历</h2>
+    <p class="ss">工作实习与校园实践</p>
+    <div class="tabs" role="tablist" id="et"></div>
+    <div id="ep"></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="c">
+    <h2 class="st">项目</h2>
+    <p class="ss">课程创新与自主学习项目</p>
+    <div class="pg" id="pg"></div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="c">
+    <h2 class="st">作品集</h2>
+    <p class="ss">设计作品与视觉呈现</p>
+    <div class="gal" id="gal"></div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="c">
+    <h2 class="st">技能矩阵</h2>
+    <p class="ss">AI训练 / 编程 / 工程软件 / 语言</p>
+    <div class="sg" id="sg"></div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="c">
+    <h2 class="st">教育与证书</h2>
+    <p class="ss">学历背景与专业认证</p>
+    <div class="tl" id="tl"></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="c">
+    <p>© 2026 葛嘉嘉 · 个人简历 · <span id="ut"></span></p>
+    <p style="margin-top:6px">📧 <a href="#" id="fe">1757318262@qq.com</a> · 📱 19962295690 · 📍 江苏·盐城</p>
+  </div>
+</footer>
+
+<button class="bt" id="bt" aria-label="返回顶部">↑</button>
+<div class="ts" id="ts" role="status" aria-live="polite"></div>
+
+<script>
+const resume={
+  email:"1757318262@qq.com",
+  badges:["AI训练师（高级）","AI训练师（初级）","Python","AutoCAD","数据标注","模型训练","EPANET","SQL"],
+  highlights:[
+    {num:"2",unit:"项",label:"阿里达摩院AI训练师认证",desc:"初级 + 高级，2026.08 通过"},
+    {num:"3",unit:"个",label:"核心项目经验",desc:"水质检测 / 管网优化 / 知识分享"},
+    {num:"10",unit:"+",label:"专业技能栈",desc:"AI训练 · 编程 · 工程软件"},
+    {num:"2026",unit:"级",label:"盐城工学院本科",desc:"给排水科学与工程"}
+  ],
+  experience:{
+    work:[{title:"AI训练师（初级/高级认证）",company:"阿里达摩院",date:"2026.08",points:[
+      "主导多模态数据的标注与审核工作，制定标注规范文档，将标注一致性提升至行业领先水平",
+      "参与AI模型的训练数据构建与迭代，通过难例挖掘与数据增强，推动模型准确率显著提升",
+      "与算法工程师、产品经理协同推进项目落地，缩短数据交付周期，提升团队协作效率",
+      "设计自动化数据清洗脚本，减少人工重复劳动，效率提升约40%",
+      "输出内部培训材料，协助培养初级训练师，形成可复用的知识沉淀体系"
+    ]}],
+    campus:[
+      {title:"校园给排水管网优化调研",company:"团队负责人",date:"2027.03 – 2027.06",points:[
+        "针对校园部分区域排水不畅、雨季易积水问题，带领团队完成管网测绘与流量分析",
+        "使用EPANET模拟多种改造方案，提出优化建议被后勤处采纳",
+        "预计降低积水发生率，提升校园排水系统运行效率"
+      ]},
+      {title:"AI训练师认证备考与知识分享",company:"自主学习项目",date:"2026.01 – 2026.08",points:[
+        "系统学习达摩院AI训练师课程，整理学习笔记，通过初级与高级认证",
+        "在平台发布学习心得，累计阅读量可观，帮助多名同学通过初级认证"
+      ]}
+    ]
+  },
+  projects:[
+    {name:"基于AI的水质异常检测模型构建",stack:["Python","机器学习","数据标注","可视化"],result:"模型F1-score达<strong>较高水平</strong>，检测效率较人工提升<strong>显著</strong>，项目获院级奖项"},
+    {name:"校园给排水管网优化调研",stack:["EPANET","AutoCAD","数据分析"],result:"提出优化方案被后勤处采纳，预计降低积水发生率<strong>明显</strong>"},
+    {name:"AI训练师认证备考与知识分享",stack:["AI训练","数据标注","知识管理"],result:"通过初级与高级认证，发布学习心得<strong>多篇</strong>，帮助多名同学通过认证"}
+  ],
+  gallery:[
+    {src:"初.jpg",caption:"作品集 · 初",tag:"设计作品"},
+    {src:"高.jpg",caption:"作品集 · 高",tag:"设计作品"}
+  ],
+  skills:[
+    {group:"AI训练与数据标注",icon:"🤖",items:[
+      {name:"监督学习与模型评估",pct:85},
+      {name:"数据清洗与标注规范",pct:90},
+      {name:"LabelImg / Label Studio / CVAT",pct:80}
+    ]},
+    {group:"编程与数据处理",icon:"💻",items:[
+      {name:"Python (Pandas/NumPy/Matplotlib)",pct:75},
+      {name:"SQL",pct:65},
+      {name:"Excel 高级函数与数据透视表",pct:80}
+    ]},
+    {group:"工程软件",icon:"📐",items:[
+      {name:"AutoCAD",pct:70},
+      {name:"EPANET",pct:65},
+      {name:"MATLAB / Origin",pct:60}
+    ]},
+    {group:"语言与协作",icon:"🌐",items:[
+      {name:"英语 CET-4（目标600+）",pct:70},
+      {name:"普通话二级甲等",pct:85},
+      {name:"Notion / 飞书 / Git 基础",pct:75}
+    ]}
+  ],
+  education:[
+    {title:"盐城工学院 · 给排水科学与工程",sub:"本科 · 2026.09 – 2030.06（预计）",date:"主修：水质工程学、水处理生物学、泵与泵站、给水排水管网系统、水分析化学、工程制图、Python程序设计"},
+    {title:"阿里达摩院 AI训练师（高级）",sub:"认证 · 2026.08",date:""},
+    {title:"阿里达摩院 AI训练师（初级）",sub:"认证 · 2026.08",date:""},
+    {title:"CET-4 / 计算机二级（Python）",sub:"目标：四级600+ / 大一考取",date:""}
+  ]
+};
+
+function el(t,c,h){const e=document.createElement(t);if(c)e.className=c;if(h!==undefined)e.innerHTML=h;return e}
+function toast(m){const t=document.getElementById('ts');t.textContent=m;t.classList.add('show');clearTimeout(t._x);t._x=setTimeout(()=>t.classList.remove('show'),2000)}
+
+/* 导航 */
+const navItems=[{h:'#top',l:'首页'},{h:'#highlights',l:'亮点'},{h:'#experience',l:'经历'},{h:'#projects',l:'项目'},{h:'#gallery',l:'作品'},{h:'#skills',l:'技能'},{h:'#education',l:'教育'}];
+const nl=document.getElementById('nl');
+navItems.forEach(i=>{const a=el('a','',i.l);a.href=i.h;nl.appendChild(a)});
+
+/* Hero 徽章 */
+const hb=document.getElementById('hb');
+resume.badges.forEach((b,i)=>{hb.appendChild(el('span','bg'+(i%3===0?' a':''),b))});
+
+/* 亮点 */
+const hl=document.getElementById('hl');
+resume.highlights.forEach(h=>{
+  hl.appendChild(el('div','hc','<div class="hnum">'+h.num+'<span>'+h.unit+'</span></div><div class="hlab">'+h.label+'</div><div class="hdesc">'+h.desc+'</div>'));
+});
+
+/* 经历 Tabs */
+const et=document.getElementById('et');
+const ep=document.getElementById('ep');
+const cats=[{k:'work',l:'工作/实习'},{k:'campus',l:'校园/实践'}].filter(c=>resume.experience[c.k]&&resume.experience[c.k].length);
+cats.forEach((cat,idx)=>{
+  const btn=el('button','tb',cat.l);
+  btn.setAttribute('role','tab');
+  btn.setAttribute('aria-selected',idx===0?'true':'false');
+  btn.setAttribute('aria-controls','pn-'+cat.k);
+  btn.id='tb-'+cat.k;
+  btn.tabIndex=idx===0?0:-1;
+  et.appendChild(btn);
+  const panel=el('div','tp'+(idx===0?' active':''));
+  panel.id='pn-'+cat.k;
+  panel.setAttribute('role','tabpanel');
+  panel.setAttribute('aria-labelledby','tb-'+cat.k);
+  resume.experience[cat.k].forEach(x=>{
+    let lis='';x.points.forEach(p=>{lis+='<li>'+p+'</li>'});
+    panel.appendChild(el('div','ec','<div class="eh"><div><div class="et">'+x.title+'</div><div class="eco">'+x.company+'</div></div><div class="ed">'+x.date+'</div></div><ul class="el">'+lis+'</ul>'));
+  });
+  ep.appendChild(panel);
+});
+/* Tab 交互 */
+const tabs=et.querySelectorAll('.tb');
+tabs.forEach((btn,i)=>{
+  btn.addEventListener('click',()=>{
+    tabs.forEach((b,j)=>{b.setAttribute('aria-selected',j===i?'true':'false');b.tabIndex=j===i?0:-1});
+    et.parentElement.querySelectorAll('.tp').forEach((p,j)=>p.classList.toggle('active',j===i));
+  });
+  btn.addEventListener('keydown',e=>{
+    let n=-1;
+    if(e.key==='ArrowRight')n=(i+1)%tabs.length;
+    else if(e.key==='ArrowLeft')n=(i-1+tabs.length)%tabs.length;
+    if(n>=0){e.preventDefault();tabs[n].focus();tabs[n].click()}
+  });
+});
+
+/* 项目 */
+const pg=document.getElementById('pg');
+resume.projects.forEach(p=>{
+  const card=el('div','pc');
+  let st='';p.stack.forEach(s=>{st+='<span class="stg">'+s+'</span>'});
+  card.innerHTML='<div class="pn">'+p.name+'</div><div class="ps">'+st+'</div><div class="pr">'+p.result+'</div>';
+  pg.appendChild(card);
+});
+
+/* 作品集 */
+const gal=document.getElementById('gal');
+resume.gallery.forEach(g=>{
+  const item=el('div','gi');
+  const img=el('img');
+  img.src=g.src;img.alt=g.caption;img.loading='lazy';
+  img.onerror=function(){
+    this.parentNode.innerHTML='<div class="gph">'+g.caption+'（图片未找到）</div><div class="gcap">'+g.caption+'<span>'+g.tag+'</span></div>';
+  };
+  item.appendChild(img);
+  item.appendChild(el('div','gcap',g.caption+'<span>'+g.tag+'</span>'));
+  gal.appendChild(item);
+});
+
+/* 技能 */
+const sg=document.getElementById('sg');
+resume.skills.forEach(g=>{
+  const box=el('div','skg');
+  let html='<div class="skt">'+g.icon+' '+g.group+'</div>';
+  g.items.forEach(it=>{
+    html+='<div class="ski"><div class="skh"><span class="skn">'+it.name+'</span><span class="skp">'+it.pct+'%</span></div><div class="skb"><div class="skf" data-pct="'+it.pct+'"></div></div></div>';
+  });
+  box.innerHTML=html;
+  sg.appendChild(box);
+});
+/* 技能条动画 */
+const io=new IntersectionObserver(es=>{
+  es.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.querySelectorAll('.skf').forEach(f=>{f.style.width=f.dataset.pct+'%'});
+      io.unobserve(e.target);
+    }
+  });
+},{threshold:.2});
+document.querySelectorAll('.skg').forEach(s=>io.observe(s));
+
+/* 教育 */
+const tl=document.getElementById('tl');
+resume.education.forEach(e=>{
+  tl.appendChild(el('div','tli','<div class="tlt">'+e.title+'</div><div class="tls">'+e.sub+'</div>'+(e.date?'<div class="tld">'+e.date+'</div>':'')));
+});
+
+/* 邮箱防爬虫 */
+const em=resume.email;
+const [user,domain]=em.split('@');
+document.getElementById('fe').addEventListener('click',e=>{e.preventDefault();location.href='mai'+'lto:'+user+'@'+domain});
+document.getElementById('ce').addEventListener('click',()=>{
+  const full=user+'@'+domain;
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(full).then(()=>toast('邮箱已复制：'+full)).catch(()=>toast('邮箱：'+full));
+  }else{
+    const ta=document.createElement('textarea');ta.value=full;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');toast('邮箱已复制：'+full)}catch(e){toast('邮箱：'+full)}
+    document.body.removeChild(ta);
+  }
+});
+
+/* 主题切换 */
+const tt=document.getElementById('tt');
+const savedTheme=localStorage.getItem('theme');
+if(savedTheme==='dark'||(!savedTheme&&matchMedia('(prefers-color-scheme:dark)').matches)){
+  document.documentElement.setAttribute('data-theme','dark');tt.textContent='☀️';
+}
+tt.addEventListener('click',()=>{
+  const isDark=document.documentElement.getAttribute('data-theme')==='dark';
+  if(isDark){document.documentElement.removeAttribute('data-theme');tt.textContent='🌙';localStorage.setItem('theme','light')}
+  else{document.documentElement.setAttribute('data-theme','dark');tt.textContent='☀️';localStorage.setItem('theme','dark')}
+});
+
+/* 打印 */
+document.getElementById('pb').addEventListener('click',()=>window.print());
+
+/* 返回顶部 */
+const bt=document.getElementById('bt');
+addEventListener('scroll',()=>{bt.classList.toggle('show',scrollY>400)},{passive:true});
+bt.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
+
+/* 更新时间 */
+const now=new Date();
+document.getElementById('ut').textContent=now.getFullYear()+'.'+String(now.getMonth()+1).padStart(2,'0')+'.'+String(now.getDate()).padStart(2,'0');
+</script>
+</body>
+</html>
